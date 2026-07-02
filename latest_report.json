@@ -1,0 +1,359 @@
+{
+  "timestamp": "2026-07-02 23:04 UTC",
+  "chain": "mantle",
+  "summary": {
+    "total_pools": 28,
+    "total_tvl": 241633432,
+    "avg_apy": 4.21,
+    "stable_pool_pct": 28.6,
+    "protocols_analyzed": 50
+  },
+  "top_yields": [
+    {
+      "pool": "a4e37545-203b-4412-9acd-3e8b1aa4d744",
+      "chain": "Mantle",
+      "project": "aave-v3",
+      "symbol": "SUSDE",
+      "apy": 3.75,
+      "apy_base": 0,
+      "apy_reward": 3.75,
+      "tvl": 179300419,
+      "stable": true,
+      "il_risk": "no",
+      "exposure": "single",
+      "composite_score": 37.8
+    },
+    {
+      "pool": "47da0cdd-7b1d-4927-9545-20b53b73afa8",
+      "chain": "Mantle",
+      "project": "aave-v3",
+      "symbol": "USDT0",
+      "apy": 7.34,
+      "apy_base": 3.2,
+      "apy_reward": 4.14,
+      "tvl": 27277920,
+      "stable": true,
+      "il_risk": "no",
+      "exposure": "single",
+      "composite_score": 13.34
+    },
+    {
+      "pool": "b5d7a190-38d2-4fdd-8c14-1fd00c11bce1",
+      "chain": "Mantle",
+      "project": "ondo-yield-assets",
+      "symbol": "USDY",
+      "apy": 3.55,
+      "apy_base": 3.55,
+      "apy_reward": 0,
+      "tvl": 28700388,
+      "stable": true,
+      "il_risk": "no",
+      "exposure": "single",
+      "composite_score": 12.04
+    },
+    {
+      "pool": "125974d5-ad17-4a3a-b967-ebbf721fca22",
+      "chain": "Mantle",
+      "project": "aave-v3",
+      "symbol": "GHO",
+      "apy": 12.75,
+      "apy_base": 6.28,
+      "apy_reward": 6.48,
+      "tvl": 731790,
+      "stable": true,
+      "il_risk": "no",
+      "exposure": "single",
+      "composite_score": 6.38
+    },
+    {
+      "pool": "6a134700-f4a3-49ad-ad5a-fe1868b1c744",
+      "chain": "Mantle",
+      "project": "fluxion-network",
+      "symbol": "USD1-USDT0",
+      "apy": 9.9,
+      "apy_base": 9.9,
+      "apy_reward": 0,
+      "tvl": 44621,
+      "stable": true,
+      "il_risk": "no",
+      "exposure": "multi",
+      "composite_score": 4.77
+    }
+  ],
+  "risk_scores": [
+    {
+      "name": "Aave V3",
+      "chain": "Ethereum, Plasma, Arbitrum, Base, Avalanche, Binance, Polygon, Mantle, MegaETH, X Layer, xDai, Optimism, Monad, Linea, Sonic, Celo, Scroll, zkSync Era, Metis, Soneium, Fantom, Harmony",
+      "tvl": 12462327587.0,
+      "category": "Lending",
+      "score": 71,
+      "label": "MEDIUM",
+      "breakdown": {
+        "tvl_size": 20,
+        "tvl_trend": 12,
+        "audit_coverage": 14,
+        "exploit_history": 15,
+        "protocol_age": 10
+      },
+      "audits": 2,
+      "listed_at": 1648776877,
+      "url": "https://aave.com"
+    },
+    {
+      "name": "Ondo Yield Assets",
+      "chain": "Ethereum, Stellar, Sei, Ripple, Solana, Mantle, Sui, Noble, Aptos, Arbitrum, Plume Mainnet, Polygon",
+      "tvl": 2563135110.0,
+      "category": "RWA",
+      "score": 71,
+      "label": "MEDIUM",
+      "breakdown": {
+        "tvl_size": 20,
+        "tvl_trend": 12,
+        "audit_coverage": 14,
+        "exploit_history": 15,
+        "protocol_age": 10
+      },
+      "audits": 2,
+      "listed_at": "",
+      "url": "https://ondo.finance"
+    },
+    {
+      "name": "Uniswap V3",
+      "chain": "Ethereum, Base, Arbitrum, Binance, Polygon, Optimism, X Layer, Plasma, xDai, Unichain, Avalanche, Celo, RSK, Nibiru, Monad, World Chain, 0G, Robinhood Chain, XDC, Boba, MegaETH, Filecoin, zkSync Era, Mantle, Etherlink, Goat, Sei, BOB, Lens, Telos, Hemi, Sonic, Redbelly, Scroll, Linea, Blast, Taiko, Lisk, Polygon zkEVM, Moonbeam, Tempo, Manta, LightLink, Corn, Saga",
+      "tvl": 1424739454.0,
+      "category": "Dexs",
+      "score": 71,
+      "label": "MEDIUM",
+      "breakdown": {
+        "tvl_size": 20,
+        "tvl_trend": 12,
+        "audit_coverage": 14,
+        "exploit_history": 15,
+        "protocol_age": 10
+      },
+      "audits": 2,
+      "listed_at": 1666191475,
+      "url": "https://app.uniswap.org/"
+    },
+    {
+      "name": "Curve DEX",
+      "chain": "Ethereum, Arbitrum, Fraxtal, Etherlink, Base, Monad, Polygon, Plasma, X Layer, Avalanche, xDai, Hyperliquid L1, Optimism, XDC, Binance, Fantom, TAC, Unichain, Kava, Celo, Sonic, Aurora, Plume Mainnet, Moonbeam, Ink, Taiko, Stable, Corn, Harmony, Mantle",
+      "tvl": 1252538223.0,
+      "category": "Dexs",
+      "score": 71,
+      "label": "MEDIUM",
+      "breakdown": {
+        "tvl_size": 20,
+        "tvl_trend": 12,
+        "audit_coverage": 14,
+        "exploit_history": 15,
+        "protocol_age": 10
+      },
+      "audits": 2,
+      "listed_at": "",
+      "url": "https://curve.finance"
+    },
+    {
+      "name": "Compound V3",
+      "chain": "Ethereum, Arbitrum, Base, Optimism, Polygon, Mantle, Unichain, Ronin, Scroll",
+      "tvl": 1095514123.0,
+      "category": "Lending",
+      "score": 71,
+      "label": "MEDIUM",
+      "breakdown": {
+        "tvl_size": 20,
+        "tvl_trend": 12,
+        "audit_coverage": 14,
+        "exploit_history": 15,
+        "protocol_age": 10
+      },
+      "audits": 2,
+      "listed_at": 1663169029,
+      "url": "https://www.compound.xyz/"
+    },
+    {
+      "name": "Pendle",
+      "chain": "Ethereum, Plasma, Arbitrum, Monad, Hyperliquid L1, Binance, Base, Sonic, Mantle, Avalanche, Optimism, Berachain",
+      "tvl": 981041431.0,
+      "category": "Yield",
+      "score": 68,
+      "label": "MEDIUM",
+      "breakdown": {
+        "tvl_size": 17,
+        "tvl_trend": 12,
+        "audit_coverage": 14,
+        "exploit_history": 15,
+        "protocol_age": 10
+      },
+      "audits": 2,
+      "listed_at": "",
+      "url": "https://pendle.finance/"
+    },
+    {
+      "name": "Euler V2",
+      "chain": "Monad, Ethereum, Plasma, Base, Avalanche, BOB, Hyperliquid L1, Unichain, Arbitrum, Sonic, Binance, Linea, Berachain, TAC, Swellchain, Mantle",
+      "tvl": 277127802.0,
+      "category": "Lending",
+      "score": 68,
+      "label": "MEDIUM",
+      "breakdown": {
+        "tvl_size": 17,
+        "tvl_trend": 12,
+        "audit_coverage": 14,
+        "exploit_history": 15,
+        "protocol_age": 10
+      },
+      "audits": 2,
+      "listed_at": 1724665226,
+      "url": "https://www.euler.finance"
+    },
+    {
+      "name": "Dolomite",
+      "chain": "Ethereum, Berachain, Arbitrum, Mantle, Polygon zkEVM, Botanix, X Layer",
+      "tvl": 208501299.0,
+      "category": "Lending",
+      "score": 68,
+      "label": "MEDIUM",
+      "breakdown": {
+        "tvl_size": 17,
+        "tvl_trend": 12,
+        "audit_coverage": 14,
+        "exploit_history": 15,
+        "protocol_age": 10
+      },
+      "audits": 2,
+      "listed_at": 1666000576,
+      "url": "https://dolomite.io"
+    },
+    {
+      "name": "Solv Basis Trading",
+      "chain": "Binance, Arbitrum, Ethereum, Mantle, Polygon, Solana, Soneium, Merlin",
+      "tvl": 150975340.0,
+      "category": "Basis Trading",
+      "score": 68,
+      "label": "MEDIUM",
+      "breakdown": {
+        "tvl_size": 17,
+        "tvl_trend": 12,
+        "audit_coverage": 14,
+        "exploit_history": 15,
+        "protocol_age": 10
+      },
+      "audits": 2,
+      "listed_at": 1695959391,
+      "url": "https://solv.finance/"
+    },
+    {
+      "name": "Lagoon",
+      "chain": "Ethereum, Arbitrum, Base, TAC, Avalanche, Hyperliquid L1, Plasma, Linea, Monad, Optimism, Katana, Sonic, Mantle, Berachain, World Chain, Unichain, Polygon",
+      "tvl": 135127508.0,
+      "category": "Onchain Capital Allocator",
+      "score": 68,
+      "label": "MEDIUM",
+      "breakdown": {
+        "tvl_size": 17,
+        "tvl_trend": 12,
+        "audit_coverage": 14,
+        "exploit_history": 15,
+        "protocol_age": 10
+      },
+      "audits": 2,
+      "listed_at": 1734930934,
+      "url": "https://lagoon.finance"
+    },
+    {
+      "name": "Axelar",
+      "chain": "Ethereum, Binance, Ripple, Optimism, Fantom, Arbitrum, Polygon, Avalanche, Regen, Osmosis, Cosmos, Base, Stride, Celestia, Agoric, Persistence, Chihuahua, Secret, Sei, Mantle, Juno, XRPL EVM, Carbon, Umee, Evmos, Kujira, Migaloo, Stargaze, Archway, Dymension, Injective, Neutron, Terra2, XPLA, Aurora, Immutable zkEVM, Blast, Linea, Fraxtal, Scroll, Moonbeam, Kava, Celo, Filecoin",
+      "tvl": 134545081.0,
+      "category": "Bridge",
+      "score": 68,
+      "label": "MEDIUM",
+      "breakdown": {
+        "tvl_size": 17,
+        "tvl_trend": 12,
+        "audit_coverage": 14,
+        "exploit_history": 15,
+        "protocol_age": 10
+      },
+      "audits": 2,
+      "listed_at": 1667045416,
+      "url": "https://axelar.network"
+    },
+    {
+      "name": "Midas RWA",
+      "chain": "Ethereum, Plasma, Monad, Hyperliquid L1, Arbitrum, Base, Etherlink, Plume Mainnet, RSK, Flare, Binance, Optimism, Solana, Linea, Sonic, TAC, Katana, Unichain, Avalanche, Mantle, Ink, Celo, Sei, Berachain, 0G, Polygon, XRPL EVM, Scroll, Bitcoin, Sapphire, Sui",
+      "tvl": 114266567.0,
+      "category": "RWA",
+      "score": 68,
+      "label": "MEDIUM",
+      "breakdown": {
+        "tvl_size": 17,
+        "tvl_trend": 12,
+        "audit_coverage": 14,
+        "exploit_history": 15,
+        "protocol_age": 10
+      },
+      "audits": 2,
+      "listed_at": 1720775830,
+      "url": "https://midas.app"
+    },
+    {
+      "name": "Beefy",
+      "chain": "Ethereum, Base, Arbitrum, Binance, Fraxtal, Monad, Optimism, Polygon, Fantom, Avalanche, Cronos, Plasma, Hyperliquid L1, Metis, Sonic, MegaETH, Linea, RSK, xDai, zkSync Era, Lisk, Kava, Sei, Berachain, Mantle, Moonbeam, Aurora, Celo, Moonriver, Fuse, Mode, Oasis, Manta, Scroll, Harmony, Heco, Saga, Canto, re.al, Polygon zkEVM",
+      "tvl": 106433935.0,
+      "category": "Yield Aggregator",
+      "score": 68,
+      "label": "MEDIUM",
+      "breakdown": {
+        "tvl_size": 17,
+        "tvl_trend": 12,
+        "audit_coverage": 14,
+        "exploit_history": 15,
+        "protocol_age": 10
+      },
+      "audits": 2,
+      "listed_at": "",
+      "url": "https://beefy.com"
+    },
+    {
+      "name": "Stargate V2",
+      "chain": "Binance, Ethereum, Arbitrum, Base, Optimism, Scroll, xDai, Avalanche, Mantle, Soneium, Kava, Abstract, Unichain, Metis, Aurora, Linea, Polygon, Sonic, Hemi, LightLink, Manta, Sei, Swellchain, Stable",
+      "tvl": 71883053.0,
+      "category": "Cross Chain Bridge",
+      "score": 65,
+      "label": "MEDIUM",
+      "breakdown": {
+        "tvl_size": 14,
+        "tvl_trend": 12,
+        "audit_coverage": 14,
+        "exploit_history": 15,
+        "protocol_age": 10
+      },
+      "audits": 2,
+      "listed_at": 1719902937,
+      "url": "https://stargate.finance/"
+    },
+    {
+      "name": "Treehouse Protocol",
+      "chain": "Ethereum, Avalanche, Mantle",
+      "tvl": 55910770.0,
+      "category": "DOR",
+      "score": 65,
+      "label": "MEDIUM",
+      "breakdown": {
+        "tvl_size": 14,
+        "tvl_trend": 12,
+        "audit_coverage": 14,
+        "exploit_history": 15,
+        "protocol_age": 10
+      },
+      "audits": 2,
+      "listed_at": 1725968902,
+      "url": "https://www.treehouse.finance/"
+    }
+  ],
+  "insights": [
+    "Top opportunity: SUSDE on aave-v3 at 3.75% APY (TVL: $179,300,419)",
+    "Best stablecoin yield: GHO on aave-v3 at 12.75% APY"
+  ]
+}
