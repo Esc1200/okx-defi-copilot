@@ -1,6 +1,6 @@
 # DeFi Copilot
 
-Your AI-Powered DeFi Research Agent. Scans protocols across chains, scores risk, analyzes yield opportunities, and generates actionable research reports.
+Your AI-Powered DeFi Research Agent. Scans protocols across 7 major chains, scores risk, analyzes yield opportunities, and generates actionable research reports.
 
 **OKX.AI Genesis Hackathon — Finance Copilot Track**
 
@@ -12,6 +12,10 @@ Your AI-Powered DeFi Research Agent. Scans protocols across chains, scores risk,
 4. **Insight Generation** — Identifies best risk-adjusted yields, safest protocols, red flags
 5. **X Post Generation** — Auto-generates research posts for social sharing
 
+## Supported Chains
+
+Ethereum, Arbitrum, Base, Optimism, Mantle, Polygon, BSC
+
 ## Usage
 
 ```bash
@@ -19,6 +23,8 @@ Your AI-Powered DeFi Research Agent. Scans protocols across chains, scores risk,
 python copilot.py
 
 # Focus on one chain
+python copilot.py --chain ethereum
+python copilot.py --chain arbitrum
 python copilot.py --chain mantle
 
 # Top 5 opportunities only
@@ -39,42 +45,31 @@ python copilot.py --json
 ```
 ═════════════════════════════════════════════════════════════════
   DEFI COPILOT — RESEARCH REPORT
-  2026-07-02 18:00 UTC | Chain: MANTLE
+  2026-07-02 23:04 UTC | Chain: ALL
 ═════════════════════════════════════════════════════════════════
 
 📊 ECOSYSTEM OVERVIEW
-  Active Pools:     147
-  Total TVL:        $140,000,000
+  Active Pools:     2,847
+  Total TVL:        $45,200,000,000
   Average APY:      8.45%
   Stablecoin Pools: 23.1%
 
 🏆 TOP YIELD OPPORTUNITIES
   #    Symbol               Protocol            APY            TVL  Risk
   1    USDe                 Ethena            12.50%    $45,000,000  🟢
-  2    mETH                 Mantle Staking     8.20%    $32,000,000      
-  3    DAI                  Aave V3            5.80%    $28,000,000  🟢
+  2    sUSDe                Aave V3            5.80%   $179,000,000  🟢
+  3    USDY                 Ondo               5.20%    $28,700,000  🟢
 
 🛡️ PROTOCOL RISK SCORES
   Protocol                      TVL  Score      Label  Category
-  Aave V3               $90,000,000    92       LOW    Lending
-  Ondo Finance          $28,600,000    85       LOW    RWA
-  Pendle               $15,200,000    78    MEDIUM    Yield
+  Aave V3             $12,462,327,587    71    MEDIUM    Lending
+  Uniswap V3           $1,424,739,454    71    MEDIUM    DEX
+  Compound V3          $1,095,514,123    71    MEDIUM    Lending
 
 💡 INSIGHTS
-  • Top opportunity: USDe on Ethena at 12.50% APY
-  • Safest protocols: Aave V3, Compound V3, Ondo Finance
-  • Best stablecoin yield: DAI on Aave V3 at 5.80% APY
-  • Caution: 3 protocols have declining TVL
-```
-
-## Supported Chains
-
-Mantle, Ethereum, Arbitrum, Base, Optimism, Polygon, BSC
-
-## Requirements
-
-```
-requests>=2.28.0
+  • Safest protocols: Aave V3, Compound V3, Uniswap V3
+  • Best stablecoin yield: sUSDe on Aave V3 at 5.80% APY
+  • Caution: 12 protocols have declining TVL
 ```
 
 ## How it works
@@ -89,6 +84,12 @@ Risk scores are computed from 5 weighted dimensions:
 - **Audit Coverage** (0-20): Number and quality of audits
 - **Exploit History** (0-20): Past security incidents
 - **Protocol Age** (0-20): Time since deployment
+
+## Requirements
+
+```
+requests>=2.28.0
+```
 
 ## License
 

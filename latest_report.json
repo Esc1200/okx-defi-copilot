@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-07-02 23:04 UTC",
+  "timestamp": "2026-07-02 23:05 UTC",
   "chain": "mantle",
   "summary": {
     "total_pools": 28,
@@ -78,6 +78,76 @@
       "il_risk": "no",
       "exposure": "multi",
       "composite_score": 4.77
+    },
+    {
+      "pool": "35f2103d-231b-443b-952e-d2cd118d8f29",
+      "chain": "Mantle",
+      "project": "fluxion-network",
+      "symbol": "USDT0-BSB",
+      "apy": 16.03,
+      "apy_base": 16.03,
+      "apy_reward": 0,
+      "tvl": 552598,
+      "stable": false,
+      "il_risk": "yes",
+      "exposure": "multi",
+      "composite_score": 4.6
+    },
+    {
+      "pool": "32cb38a5-b9b9-441a-bf07-8fab47b999d3",
+      "chain": "Mantle",
+      "project": "aave-v3",
+      "symbol": "USDC",
+      "apy": 8.36,
+      "apy_base": 3.16,
+      "apy_reward": 5.2,
+      "tvl": 1273279,
+      "stable": true,
+      "il_risk": "no",
+      "exposure": "single",
+      "composite_score": 4.47
+    },
+    {
+      "pool": "6d76a4e2-57f2-4190-a882-bd69f6ea32fb",
+      "chain": "Mantle",
+      "project": "fluxion-network",
+      "symbol": "OPG-USDT0",
+      "apy": 8.96,
+      "apy_base": 8.96,
+      "apy_reward": 0,
+      "tvl": 330701,
+      "stable": false,
+      "il_risk": "yes",
+      "exposure": "multi",
+      "composite_score": 2.58
+    },
+    {
+      "pool": "ebec73de-fd1e-4f97-8287-d9cb01c7d352",
+      "chain": "Mantle",
+      "project": "fluxion-network",
+      "symbol": "USDC-WMSTRX",
+      "apy": 8.82,
+      "apy_base": 8.82,
+      "apy_reward": 0,
+      "tvl": 87013,
+      "stable": false,
+      "il_risk": "yes",
+      "exposure": "multi",
+      "composite_score": 2.49
+    },
+    {
+      "pool": "76b70b33-d8a4-4e61-8092-9bd1f2be2fc9",
+      "chain": "Mantle",
+      "project": "aave-v3",
+      "symbol": "USDE",
+      "apy": 4.43,
+      "apy_base": 0.68,
+      "apy_reward": 3.75,
+      "tvl": 758927,
+      "stable": true,
+      "il_risk": "no",
+      "exposure": "single",
+      "composite_score": 2.4
     }
   ],
   "risk_scores": [
